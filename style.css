@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding:0;
+}
+
+body {
+    font-size: 15pt;
+}
+
+.score-box {
+  display: flex;
+  justify-content: center;
+  height: 5vh;
+  background-color: coral;
+}
+
+.container {
+  height: 95vh;
+  width: 100vw;
+  background: coral;
+}
+
+.circle {
+  height: 100px;
+  width: 100px;
+  background: red;
+  position: relative;
+  top: 0vh;
+  bottom: 0vh;
+  left: 0vw;
+  right: 0vw;
+  z-index: 100;
+  border-radius: 50%;
+  transition: .1s;
+}
+
+.points{
+  color: black;
+  text-align: center;
+  z-index: 1;
+}
